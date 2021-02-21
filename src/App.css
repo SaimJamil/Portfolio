@@ -4,9 +4,17 @@
   --primary-white: #fff;
   --primary-orange: #f9ab00;
   --primary-dark: rgba(255, 255, 255, 0);
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
 }
+
 body {
   font-family: "Roboto Condesed" sans-serif;
+}
+
+nav {
+  z-index: 2;
+  box-shadow: 20px 10px 7px grey;
 }
 
 .logo {
@@ -43,4 +51,78 @@ nav ul li {
 
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-orange);
+}
+
+.header-wraper {
+  position: relative;
+  background: url(background5.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Roboto Condesed" sans-serif;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.main-info h1 {
+  color: var(--primary-orange);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-white);
+  font-weight: 500;
+}
+
+.btn-main-offer {
+  border: 1px solid var(--primary-red);
+  text-transform: uppercase;
+  border-radius: 0;
+  color: var(--primary-white);
+  padding: 0.635rem 0.75rem 0.75rem 0.75rem;
+  margin-top: 2rem;
+}
+
+.btn-main-offer:hover {
+  text-decoration: none;
+  background-color: var(--primary-hover-red);
+  transition: 0.2s ease-in-out;
+}
+
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vh;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .partical-canvas {
+    display: none;
+  }
+
+  .main-info h1 {
+    font-size: 1.5rem !important;
+  }
+
+  .typed-text {
+    font-size: 1.3rem !important;
+  }
+  .navbar-brand {
+    width: 7rem;
+  }
 }
