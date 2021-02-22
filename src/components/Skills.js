@@ -10,7 +10,7 @@ const Skills = () => {
             <h1 className="py-5">My Skills</h1>
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-3 col-sm-6">
+                        <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="box">
                                 <div className="circle"><FontAwesomeIcon className="icon" icon={faMicrosoft} size="2x"/></div>
                                 <h3>
@@ -19,7 +19,7 @@ const Skills = () => {
                                 <p>I know OOPS principles</p>
                             </div>
                         </div>
-                        <div className="col-md-3 col-sm-6">
+                        <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="box">
                                 <div className="circle"><FontAwesomeIcon className="icon" icon={faMicrosoft} size="2x"/></div>
                                 <h3>
@@ -28,7 +28,7 @@ const Skills = () => {
                                 <p> I know Asp.Net, .Net MVC & .Net Core Web Api's</p>
                             </div>
                         </div>
-                        <div className="col-md-3 col-sm-6">
+                        <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="box">
                                 <div className="circle"><FontAwesomeIcon className="icon" icon={faDatabase} size="2x"/></div>
                                 <h3>
@@ -37,7 +37,7 @@ const Skills = () => {
                                 <p> I know Asp.Net, .Net MVC & .Net Core Web Api's</p>
                             </div>
                         </div>
-                        <div className="col-md-3 col-sm-6">
+                        <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="box">
                                 <div className="circle"><FontAwesomeIcon className="icon" icon={faJava} size="2x"/></div>
                                 <h3>
@@ -48,7 +48,7 @@ const Skills = () => {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-md-3 col-sm-6">
+                        <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="box">
                                 <div className="circle"><FontAwesomeIcon className="icon" icon={faReact} size="2x"/></div>
                                 <h3>
@@ -57,7 +57,7 @@ const Skills = () => {
                                 <p> I know Asp.Net, .Net MVC & .Net Core Web Api's</p>
                             </div>
                         </div>
-                        <div className="col-md-3 col-sm-6">
+                        <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="box">
                                 <div className="circle"><FontAwesomeIcon className="icon" icon={faFacebookSquare} size="2x"/></div>
                                 <h3>
@@ -66,7 +66,7 @@ const Skills = () => {
                                 <p> I know Asp.Net, .Net MVC & .Net Core Web Api's</p>
                             </div>
                         </div>
-                        <div className="col-md-3 col-sm-6">
+                        <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="box">
                                 <div className="circle"><FontAwesomeIcon className="icon" icon={faNodeJs} size="2x"/></div>
                                 <h3>
@@ -75,7 +75,7 @@ const Skills = () => {
                                 <p> I know Asp.Net, .Net MVC & .Net Core Web Api's</p>
                             </div>
                         </div>
-                        <div className="col-md-3 col-sm-6">
+                        <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="box">
                                 <div className="circle"><FontAwesomeIcon className="icon" icon={faHtml5} size="2x"/></div>
                                 <h3>
