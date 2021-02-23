@@ -6,8 +6,8 @@ import Particles from 'react-particles-js';
 import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
 import Education from './components/Education';
-import Experienc from './components/Experience';
 import Experience from './components/Experience';
+import Portfolio from './components/Portfolio'
 
 function App() {
   return (
@@ -39,6 +39,7 @@ function App() {
     <Skills/>
     <Education/>
     <Experience/>
+    <Portfolio/>
     </>
   );
 }

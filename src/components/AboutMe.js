@@ -12,7 +12,7 @@ const AboutMe = () => {
                 </div>
                 <div className="col-lg-6 col-xm-12">
                     <h1 className="aboutme-heading">About Me</h1>
-                    <p>
+                    <p style={{border:"2px solid #f9ab00" , padding:"5px"}}>
                         Hi, I am Saim Jamil
                     </p>
                 </div>
