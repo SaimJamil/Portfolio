@@ -50,7 +50,7 @@ nav ul li {
 }
 
 .navbar-nav > li > a.active,
-.navbar-nav > li > a.active :focus {
+.navbar-nav > li > a:focus {
   border-top: 0.1875rem solid var(--primary-orange);
 }
 
@@ -63,7 +63,7 @@ nav ul li {
   background: url(background.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
   box-shadow: 20px 10px 7px var(--primary-orange);
 }
 
@@ -364,6 +364,10 @@ nav ul li {
   color: var(--primary-red);
 }
 
+.popupbox-wrapper {
+  margin-top: 7rem;
+}
+
 @media (max-width: 768px) {
   .portfolio-image-popupbox {
     width: 100%;
@@ -485,4 +489,24 @@ textarea.form-control {
   .contacts p {
     padding: 0 0.4rem;
   }
+}
+
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-orange);
+}
+
+.footer p {
+  margin-bottom: 0;
 }
