@@ -10,6 +10,7 @@ import Experience from './components/Experience';
 import Portfolio from './components/Portfolio'
 import Contacts from './components/Contacts'
 import Footer from './components/Footer'
+import Hobbies from './components/Hobbies'
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
     <Education/>
     <Experience/>
     <Portfolio/>
+    <Hobbies/>
     <Contacts/>
     <Footer/>
     </>
