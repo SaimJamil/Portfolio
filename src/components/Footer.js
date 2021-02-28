@@ -55,26 +55,26 @@ const Footer = () => {
                     </div>
                     <div className="col-lg-5 col-md-5 col-sm-6 align-items-center" >
                         <div className="d-flex justify-content-center">
-                            <FacebookShareButton url="https://clone-5fe02.web.app/"
+                            <FacebookShareButton url="https://saimjamil.github.io/Portfolio/"
                             quote="Backend Developer"
                             hashtag="#.Net"
                             >
                                 <FacebookIcon className="mx-3" size={36}/>
                             </FacebookShareButton>
 
-                            <TwitterShareButton url="https://clone-5fe02.web.app/"
+                            <TwitterShareButton url="https://saimjamil.github.io/Portfolio/"
                             quote="Backend Developer"
                             hashtag="#.Net"
                             >
                                 <TwitterIcon className="mx-3" size={36}/>
                             </TwitterShareButton>
-                            <RedditShareButton url="https://clone-5fe02.web.app/"
+                            <RedditShareButton url="https://saimjamil.github.io/Portfolio/"
                             quote="Backend Developer"
                             hashtag="#.Net"
                             >
                                 <RedditIcon className="mx-3" size={36}/>
                             </RedditShareButton>
-                            <LinkedinShareButton url="https://clone-5fe02.web.app/"
+                            <LinkedinShareButton url="https://saimjamil.github.io/Portfolio/"
                             quote="Backend Developer"
                             hashtag="#.Net"
                             >
