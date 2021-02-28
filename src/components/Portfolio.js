@@ -34,7 +34,7 @@ const Portfolio = () => {
         <>
         <img  className="portfolio-image-popupbox" src={PortFolio} alt="PortFolio Project"/>
         <p>Responsive Portfilio Using React Js & Bootstrap</p>
-        <b>Link :<a className="hyper-link" onClick={()=>window.open("https://saimjamil.github.io/Portfolio/","_blank")}>http://localhost:3000/</a></b>
+        <b>Link :<a className="hyper-link" onClick={()=>window.open("https://saimjamil.github.io/Portfolio/","_blank")}>https://saimjamil.github.io/Portfolio/</a></b>
         </>
         )
         
