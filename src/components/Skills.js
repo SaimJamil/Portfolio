@@ -16,7 +16,7 @@ const Skills = () => {
                                 <h3>
                                     C#
                                 </h3>
-                                <p>I know OOPS principles</p>
+                                <p>OOPS, MultiThreading, Exception Handling, Collections, etc..</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6">
@@ -25,7 +25,7 @@ const Skills = () => {
                                 <h3>
                                     .Net Framework
                                 </h3>
-                                <p> I know Asp.Net, .Net MVC & .Net Core Web Api's</p>
+                                <p> ASP.Net MVC, .NetCore Web Api, Grpc services</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6">
@@ -34,7 +34,7 @@ const Skills = () => {
                                 <h3>
                                     Database
                                 </h3>
-                                <p> I know Asp.Net, .Net MVC & .Net Core Web Api's</p>
+                                <p><b>SQL </b>(Sql server, oracle, mysql)<br/><b> NoSql</b> (Mongo)</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6">
@@ -43,7 +43,8 @@ const Skills = () => {
                                 <h3>
                                     Java
                                 </h3>
-                                <p> I know Asp.Net, .Net MVC & .Net Core Web Api's</p>
+                                <p> OOPS, MultiThreading, Collections, Exception Handling</p>
+                                <p>Basics of Spring Framework & Hibernate</p>
                             </div>
                         </div>
                     </div>
@@ -54,7 +55,7 @@ const Skills = () => {
                                 <h3>
                                     React
                                 </h3>
-                                <p> I know Asp.Net, .Net MVC & .Net Core Web Api's</p>
+                                <p> functional & Non functional components, React Hooks, React Context</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6">
@@ -63,7 +64,7 @@ const Skills = () => {
                                 <h3>
                                     GraphQL
                                 </h3>
-                                <p> I know Asp.Net, .Net MVC & .Net Core Web Api's</p>
+                                <p> Schema, Queries, Mutations, Resolvers ..</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6">
@@ -72,7 +73,7 @@ const Skills = () => {
                                 <h3>
                                     Node
                                 </h3>
-                                <p> I know Asp.Net, .Net MVC & .Net Core Web Api's</p>
+                                <p> Node js Basics</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6">
@@ -81,7 +82,7 @@ const Skills = () => {
                                 <h3>
                                     Html & CSS
                                 </h3>
-                                <p> I know Asp.Net, .Net MVC & .Net Core Web Api's</p>
+                                <p> Basic Html Css</p>
                             </div>
                         </div>
                     </div>

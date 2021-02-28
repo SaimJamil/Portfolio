@@ -576,3 +576,7 @@ textarea.form-control {
   background: transparent !important;
   height: 100% !important;
 }
+
+.myCarousel p {
+  text-transform: uppercase;
+}

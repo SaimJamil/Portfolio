@@ -13,7 +13,7 @@ const Portfolio = () => {
         const content=(
         <>
         <img  className="portfolio-image-popupbox" src={Amazon} alt="Amazon Clone Project"/>
-        <p>Amazon Clone Using React Js</p>
+        <p>Amazon Clone Using React Js with complete payment functionality using Stripe & using firebase for hosting & database</p>
         <b>Link :<a className="hyper-link" onClick={()=>window.open("https://clone-5fe02.web.app/","_blank")}>https://clone-5fe02.web.app/</a></b>
         </>
         )
@@ -23,8 +23,7 @@ const Portfolio = () => {
 
     const popupBoxConfigAmazon = {
         titleBar: {
-            enable:true,
-            text:"Amazon Clone Project"
+            enable:false,
         },
         fadeIn:true,
         fadeInSpeed:500
@@ -34,7 +33,7 @@ const Portfolio = () => {
         const content=(
         <>
         <img  className="portfolio-image-popupbox" src={PortFolio} alt="PortFolio Project"/>
-        <p>PortFolio  Using React Js</p>
+        <p>Responsive Portfilio Using React Js & Bootstrap</p>
         <b>Link :<a className="hyper-link" onClick={()=>window.open("http://localhost:3000/","_blank")}>http://localhost:3000/</a></b>
         </>
         )
@@ -44,8 +43,7 @@ const Portfolio = () => {
 
     const popupBoxConfigPortFolio = {
         titleBar: {
-            enable:true,
-            text:"Portfolio Project"
+            enable:false,
         },
         fadeIn:true,
         fadeInSpeed:500
@@ -55,7 +53,7 @@ const Portfolio = () => {
         const content=(
         <>
         <img  className="portfolio-image-popupbox" src={LeetCode} alt="LeetCode Profile"/>
-        <p>Leetcode Profile</p>
+        <p>Leetcode Profile : Solved over 600 questions on Leetcode</p>
         <b>Profile Link :<a className="hyper-link" onClick={()=>window.open("https://leetcode.com/saimjamil70/","_blank")}>https://leetcode.com/saimjamil70/</a></b>
         </>
         )
@@ -65,8 +63,7 @@ const Portfolio = () => {
 
     const popupBoxConfigLeetcode = {
         titleBar: {
-            enable:true,
-            text:"Leetcode Profile"
+            enable:false,
         },
         fadeIn:true,
         fadeInSpeed:500
@@ -76,7 +73,7 @@ const Portfolio = () => {
         const content=(
         <>
         <img  className="portfolio-image-popupbox" src={GeeksForGeeks} alt="GeeksForGeeks Profile"/>
-        <p>GeeksForGeeks Profile</p>
+        <p>GeeksForGeeks Profile : Solved over 130 problems </p>
         <b>Link :<a className="hyper-link" onClick={()=>window.open("https://auth.geeksforgeeks.org/user/saimjamil/profile","_blank")}>https://auth.geeksforgeeks.org/user/saimjamil/profile</a></b>
         </>
         )
@@ -86,18 +83,17 @@ const Portfolio = () => {
 
     const popupBoxConfigGeeksForGeeks = {
         titleBar: {
-            enable:true,
-            text:"GeeksForGeeks Profile"
+            enable:false,
         },
         fadeIn:true,
         fadeInSpeed:500
     }
-    
 
     return (
         <div id="projects" className="portfolio-wrapper">
             <div className="container">
-                <h1 className="text-uppercase text-center py-5">Portfolio</h1>
+                <h1 className="text-uppercase text-center py-4">Portfolio</h1>
+                <h4 className="text-uppercase text-center py-2">Projects</h4>
                 <div className="image-box-wrapper row justify-content-center">
                     <div className="portfolio-image-box" onClick={openPopBoxAmazon}>
                     <img className="portfolio-image" src={Amazon} alt="Amazon Clone Project"/>
@@ -109,7 +105,9 @@ const Portfolio = () => {
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus}/>
                     </div>
-                
+                </div>
+                <h4 className="text-uppercase text-center py-2">Coding Profiles</h4>
+                <div className="image-box-wrapper row justify-content-center">
                     <div className="portfolio-image-box" onClick={openPopBoxLeetcode}>
                         <img className="portfolio-image" src={LeetCode} alt="LeetCode"/>
                         <div className="overflow"></div>
@@ -123,6 +121,7 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
+            
             <PopupboxContainer {...popupBoxConfigAmazon}/>
             <PopupboxContainer {...popupBoxConfigPortFolio}/>
             <PopupboxContainer {...popupBoxConfigLeetcode}/>
