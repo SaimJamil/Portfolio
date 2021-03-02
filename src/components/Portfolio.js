@@ -3,6 +3,7 @@ import Amazon from '../amazon-clone.PNG'
 import PortFolio from '../Portfolio.PNG'
 import LeetCode from '../Leetcode.PNG'
 import GeeksForGeeks from '../GeeksForGeeks.PNG'
+import Blackjack from '../Blackjack.PNG'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearchPlus} from '@fortawesome/free-solid-svg-icons'
 import {PopupboxContainer, PopupboxManager} from 'react-popupbox'
@@ -42,6 +43,26 @@ const Portfolio = () => {
     }
 
     const popupBoxConfigPortFolio = {
+        titleBar: {
+            enable:false,
+        },
+        fadeIn:true,
+        fadeInSpeed:500
+    }
+
+    const openPopBoxBlackJack = ()=>{
+        const content=(
+        <>
+        <img  className="portfolio-image-popupbox" src={Blackjack} alt="BlackJack Project"/>
+        <p>Responsive BlackJack Game Using HTML, CSS & JavaScript</p>
+        <b>Link :<a className="hyper-link" onClick={()=>window.open("https://saimjamil.github.io/BlackJack/","_blank")}>https://saimjamil.github.io/BlackJack/</a></b>
+        </>
+        )
+        
+        PopupboxManager.open({content})
+    }
+
+    const popupBoxConfigBlackJack = {
         titleBar: {
             enable:false,
         },
@@ -105,6 +126,11 @@ const Portfolio = () => {
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus}/>
                     </div>
+                    <div className="portfolio-image-box" onClick={openPopBoxBlackJack}>
+                        <img className="portfolio-image" src={Blackjack} alt="BlackJack Project"/>
+                        <div className="overflow"></div>
+                        <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus}/>
+                    </div>
                 </div>
                 <h4 className="text-uppercase text-center py-2">Coding Profiles</h4>
                 <div className="image-box-wrapper row justify-content-center">
@@ -126,6 +152,7 @@ const Portfolio = () => {
             <PopupboxContainer {...popupBoxConfigPortFolio}/>
             <PopupboxContainer {...popupBoxConfigLeetcode}/>
             <PopupboxContainer {...popupBoxConfigGeeksForGeeks}/>
+            <PopupboxContainer {...popupBoxConfigBlackJack}/>
 
         </div>
     )
