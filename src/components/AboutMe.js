@@ -13,7 +13,7 @@ const AboutMe = () => {
                 <div className="col-lg-6 col-xm-12">
                     <h1 className="aboutme-heading">About Me</h1>
                     <p>
-                        I am <b>Saim Jamil</b> <b>Software Development Engineer</b> at <b>Sharechat </b>.
+                        Hi, I am <b>Saim Jamil,</b> <b>Software Development Engineer</b> at <b>Sharechat </b>.
                     </p>
                     <p>
                         I have 3 years of experience as <b>Backend Developer</b>. My expertise is in building scalable services that can serve thousands of requests per second.
