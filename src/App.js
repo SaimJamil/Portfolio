@@ -15,37 +15,37 @@ import Hobbies from './components/Hobbies'
 function App() {
   return (
     <>
-    <Particles
-      className="partical-canvas"
-      params={{
-        particles:{
-          number:{
-            value:30,
-            density:{
-              enable:true,
-              value_area:900
-            }
-          },
-          shape:{
-            type:"circle",
-            stroke:{
-              width:6,
-              color:"#ffbf00"
+      <Particles
+        className="partical-canvas"
+        params={{
+          particles: {
+            number: {
+              value: 30,
+              density: {
+                enable: true,
+                value_area: 900
+              }
+            },
+            shape: {
+              type: "circle",
+              stroke: {
+                width: 6,
+                color: "#ffbf00"
+              }
             }
           }
-        }
-      }}
-    />
-    <Navbar/>
-    <Header/>
-    <AboutMe/>
-    <Skills/>
-    <Education/>
-    <Experience/>
-    <Portfolio/>
-    <Hobbies/>
-    <Contacts/>
-    <Footer/>
+        }}
+      />
+      <Navbar />
+      <Header />
+      <AboutMe />
+      <Skills />
+      <Experience />
+      <Education />
+      <Portfolio />
+      <Hobbies />
+      <Contacts />
+      <Footer />
     </>
   );
 }

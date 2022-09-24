@@ -215,6 +215,7 @@ nav ul li {
 .education {
   padding: 0.7rem;
   border: 2px solid var(--primary-grey);
+  background-color: ghostwhite;
 }
 
 .education-wraper {

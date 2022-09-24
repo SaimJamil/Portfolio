@@ -7,24 +7,33 @@ const AboutMe = () => {
             <div className="row">
                 <div className="col-lg-6 col-xm-12">
                     <div className="photo-wrap mb-5">
-                        <img className="profile-img" src={Author} alt="author..." /> 
+                        <img className="profile-img" src={Author} alt="author..." />
                     </div>
                 </div>
                 <div className="col-lg-6 col-xm-12">
                     <h1 className="aboutme-heading">About Me</h1>
                     <p>
-                        Hi, I am <b>Saim Jamil</b>.
-                        I have 1+ year of experience as an <b>Associate Software Developer</b> in <b>Aptean. </b>
-                         While I am a proficient Backend Developer, my expertise is in building scalable backend services( Api service, Grpc services, Async Mechanism).
+                        I am <b>Saim Jamil</b> <b>Software Development Engineer</b> at <b>Sharechat </b>.
                     </p>
-                    <p>    
-                         I love building things. While hard engineering problems are often fun to tackle.
-                         I love problem solving & Competitive Programming & i have solved over 600 problems on leetcode.
+                    <p>
+                        I have 3 years of experience as <b>Backend Developer</b>. My expertise is in building scalable services that can serve thousands of requests per second.
                     </p>
-                    <p>I am looking for a <b>Software Development Engineer (SDE)</b> role where i can grow my knowledge & skills and at the same time apply the experience that i have.</p>
+                    <p>
+                        I love solving complex engineering problems & I also enjoy designing & building applications.
+                    </p>
+                    <p>I am looking for <b>Software Development Engineer-2 (SDE-2)</b> role where I can use my skills & experience to solve complex problems & at the same time increase my knowledge.</p>
                 </div>
             </div>
-            
+            <div className="row">
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+            </div>
+
         </div>
     )
 }
